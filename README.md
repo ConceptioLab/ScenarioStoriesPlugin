@@ -9,6 +9,6 @@ Autores/Authors: Priscila Renata Barros Cardoso e Matheus Vieira Carmona Cogo.
 
 Orientador/Advisor: Dr. Christopher Shneider Cerqueira
 
-CONCEPTIO Laboratory at ITA - Aeronautics Institute of Technology 
+CONCEPTIO Laboratory at ITA - Aeronautics Institute of Technology / Instituto Tecnológico de Aeronáutica - Brasil
 
 ![image](https://github.com/CentroEspacialITA/SystemigramPlugin/assets/20509814/0348db2c-1bf4-4b48-941b-3d06e31f2eaa)
