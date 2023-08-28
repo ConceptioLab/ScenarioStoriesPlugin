@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+	<extension
+	     point="org.polarsys.kitalpha.resourcereuse.resources">
+	  <resource
+	        domain="vpdsl"
+	        id="org.polarsys.capella.vp.scenariostories.vpdsl.description"
+	        tags="vpdesc"
+	        name="scenariostories"
+	        path="/org.polarsys.capella.vp.scenariostories.vpdsl/model/scenariostories.vpdesc"/>
+	</extension>
+
+
+	<extension
+	     point="org.polarsys.kitalpha.resourcereuse.resources">
+	  <resource
+	        domain="vpdsl"
+	        id="org.polarsys.capella.vp.scenariostories.vpdsl.resource.scenariostories.spec"
+	        tags="Viewpoint"
+	        name="spec"
+	        path="/org.polarsys.capella.vp.scenariostories.vpdsl/model/scenariostories.spec.vptext"/>
+	</extension>
+
+	<extension
+	     point="org.polarsys.kitalpha.resourcereuse.resources">
+	  <resource
+	        domain="vpdsl"
+	        id="org.polarsys.capella.vp.scenariostories.vpdsl.resource.scenariostories.data"
+	        tags="Viewpoint"
+	        name="data"
+	        path="/org.polarsys.capella.vp.scenariostories.vpdsl/model/scenariostories.data.vptext"/>
+	</extension>
+
+	<extension
+	     point="org.polarsys.kitalpha.resourcereuse.resources">
+	  <resource
+	        domain="vpdsl"
+	        id="org.polarsys.capella.vp.scenariostories.vpdsl.resource.scenariostories.conf"
+	        tags="Viewpoint"
+	        name="conf"
+	        path="/org.polarsys.capella.vp.scenariostories.vpdsl/model/scenariostories.conf.vptext"/>
+	</extension>
+
+	<extension
+	     point="org.polarsys.kitalpha.resourcereuse.resources">
+	  <resource
+	        domain="vpdsl"
+	        id="org.polarsys.capella.vp.scenariostories.vpdsl.resource.ScenarioStories.diagram"
+	        tags="Viewpoint"
+	        name="diagram"
+	        path="/org.polarsys.capella.vp.scenariostories.vpdsl/model/ScenarioStories.diagram.vptext"/>
+	</extension>
+</plugin>

@@ -1,0 +1,26 @@
+/**
+ * Copyright (c) PolarSys, 2023. All rights reserved. 
+ *
+ *	Viewpoint ScenarioStories
+ *	@author: matheusmc
+ *	@date: 12 de mai. de 2023
+ *
+ */
+Configuration ScenarioStories.conf {
+	target Capella
+	project org.polarsys.capella.vp.scenariostories
+	nsuri "http://www.polarsys.org/capella/scenariostories"
+	release {
+		version : 1.0.0.qualifier
+		description : "Viewpoint Description"
+		execution environments : "JavaSE-11"
+	}
+	generation {
+		data (
+		)
+		diagram (
+		)
+		documentation (
+		)
+	}
+}

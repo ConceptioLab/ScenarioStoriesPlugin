@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension
+	     point="org.eclipse.ui.views">
+	  <view
+	        name="ScenarioStories"
+	        icon="icons/view.gif"
+	        category="org.polarsys.kitalpha.view.category"
+	        class="org.polarsys.kitalpha.ad.viewpoint.ui.views.ViewpointView"
+	        id="org.polarsys.capella.vp.scenariostories.view"
+	        resourceId="org.polarsys.capella.vp.scenariostories"/>
+	</extension>
+	<extension
+	     point="org.polarsys.kitalpha.resourcereuse.resources">
+	  <resource
+	        domain="AF"
+	        id="org.polarsys.capella.vp.scenariostories"
+	        tags="vp"
+	        name="ScenarioStories"
+	        path="/org.polarsys.capella.vp.scenariostories.af/model/ScenarioStories.vp#_Mw9rAPDHEe2GgfhUPAhRxg"/>
+	</extension>
+	<extension 
+	     point="org.eclipse.ui.propertiesView">
+	 	<excludeSources
+	    	id="org.polarsys.capella.vp.scenariostories.view">
+	 	</excludeSources>
+	</extension>
+</plugin>
+
