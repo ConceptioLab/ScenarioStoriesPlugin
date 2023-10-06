@@ -1,0 +1,55 @@
+/**
+ * Copyright (c) PolarSys, 2023. All rights reserved. 
+ *
+ *	Viewpoint scenariostories
+ *	@author: Priscila Barros, Matheus Cogo
+ *	@date: 28.04.2023
+ *
+ */
+Data scenariostories.data {
+	Class ScenarioStoriesFolder {
+		extends oa.OperationalAnalysis
+		Attributes:
+			diagramUIDs type ecore.EString [0,*] changeable: true ordered: true unique: true
+		Associations:
+			ownedScenarios contains [0,*] ScenarioContainer changeable: true ordered: true unique: true
+	}
+	Class ScenarioContainer {
+		superClass external capellacore.NamedElement
+		Associations:
+			ownedComponents contains [0,*] AbstractStoryComponent changeable: true ordered: true unique: true
+	}
+	Class AbstractStoryComponent {
+		superClass external capellacore.NamedElement
+		abstract: true
+	}
+	Class BasicEvent {
+		superClass AbstractStoryComponent
+	}
+	Class BasicElement {
+		superClass AbstractStoryComponent
+	}
+	Class BasicGroup {
+		superClass AbstractStoryComponent
+		Associations:
+			ownedComponents contains [0,*] AbstractStoryComponent changeable: true ordered: true unique: true
+	}
+	Class BasicEdge {
+		superClass AbstractStoryComponent
+		Associations:
+			sourceComponent refers [0,1] AbstractStoryComponent changeable: true ordered: true unique: true
+			targetComponent refers [0,1] AbstractStoryComponent changeable: true ordered: true unique: true
+	}
+	Class WhenEdge {
+		superClass BasicEdge
+	}
+	Class GivenEdge {
+		superClass BasicEdge
+	}
+	Class ThenEdge {
+		superClass BasicEdge
+	}
+	Class AndEdge {
+		superClass BasicEdge
+	}
+}

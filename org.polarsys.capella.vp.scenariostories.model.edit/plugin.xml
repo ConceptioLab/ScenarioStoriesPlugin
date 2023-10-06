@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+
+
+<plugin>
+
+   
+<!--@generated-->
+  <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
+      <!-- @generated scenariostories -->
+      <factory class="org.polarsys.capella.vp.scenariostories.scenariostories.provider.ScenariostoriesItemProviderAdapterFactory" supportedTypes="org.eclipse.emf.edit.provider.IEditingDomainItemProvider                org.eclipse.emf.edit.provider.IStructuredItemContentProvider                org.eclipse.emf.edit.provider.ITreeItemContentProvider                org.eclipse.emf.edit.provider.IItemLabelProvider                org.eclipse.emf.edit.provider.IItemPropertySource" uri="http://www.polarsys.org/capella/scenariostories"/>
+   </extension>
+
+   
+<!--@generated-->
+  <extension point="org.eclipse.emf.edit.childCreationExtenders">
+      <!-- @generated scenariostories -->
+      <extender class="org.polarsys.capella.vp.scenariostories.scenariostories.provider.ScenariostoriesItemProviderAdapterFactory$EmdeChildCreationExtender" uri="http://www.polarsys.org/kitalpha/emde/1.0.0"/>
+      <extender class="org.polarsys.capella.vp.scenariostories.scenariostories.provider.ScenariostoriesItemProviderAdapterFactory$SharedmodelChildCreationExtender" uri="http://www.polarsys.org/capella/core/sharedmodel/6.0.0"/>
+   </extension>
+
+
+<!--@generated-->
+  <extension point="org.polarsys.capella.common.menu.dynamic.MDEMenuItemContribution">
+</extension>
+
+<!--@generated-->
+  <extension point="org.eclipse.ui.views.properties.tabbed.propertySections">
+    <propertySections contributorId="org.polarsys.capella.core.data.capellamodeller.properties">
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ScenarioStoriesFolderSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.ScenarioStoriesFolderItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.ScenarioStoriesFolder"/>
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ScenarioContainerSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.ScenarioContainerItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.ScenarioContainer"/>
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.AbstractStoryComponentSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.AbstractStoryComponentItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.AbstractStoryComponent"/>
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicEventSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.BasicEventItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.BasicEvent"/>
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicElementSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.BasicElementItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.BasicElement"/>
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicGroupSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.BasicGroupItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.BasicGroup"/>
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicEdgeSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.BasicEdgeItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.BasicEdge"/>
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.WhenEdgeSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.WhenEdgeItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.WhenEdge"/>
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.GivenEdgeSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.GivenEdgeItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.GivenEdge"/>
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ThenEdgeSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.ThenEdgeItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.ThenEdge"/>
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.AndEdgeSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.contributions.AndEdgeItemContribution.section" tab="BaseCapella">
+            <input type="org.polarsys.capella.vp.scenariostories.scenariostories.AndEdge"/>
+        </propertySection>
+</propertySections>
+    </extension>
+
+<!--@generated-->
+  <extension point="org.eclipse.ui.views.properties.tabbed.propertySections">
+    <propertySections contributorId="org.eclipse.sirius.diagram.ui">
+        <propertySection class="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ScenarioStoriesFolderSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ScenarioStoriesFolderSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ScenarioStoriesFolderSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+        <propertySection class="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ScenarioContainerSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ScenarioContainerSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ScenarioContainerSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+        <propertySection class="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.AbstractStoryComponentSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.AbstractStoryComponentSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.AbstractStoryComponentSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicEventSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicEventSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicElementSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicElementSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicGroupSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicGroupSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicEdgeSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.BasicEdgeSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.WhenEdgeSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.WhenEdgeSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.GivenEdgeSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.GivenEdgeSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ThenEdgeSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.ThenEdgeSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+        <propertySection class="org.polarsys.capella.core.data.core.properties.sections.DefaultNamedElementSection" filter="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.AndEdgeSection" id="org.polarsys.capella.vp.scenariostories.scenariostories.provider.sections.AndEdgeSection.section" tab="BaseSiriusDiagram">
+        </propertySection>
+</propertySections>
+    </extension>
+</plugin>

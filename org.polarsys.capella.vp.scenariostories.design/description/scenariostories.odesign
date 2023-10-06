@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="ScenarioStories" version="12.0.0.2017041100">
+  <ownedViewpoints name="ScenarioStories_ID" label="ScenarioStories" modelFileExtension="scenariostories capella">
+    <ownedRepresentationExtensions xsi:type="description_1:DiagramExtensionDescription" name="diagramExtension" viewpointURI="viewpoint:/org.polarsys.capella.core.sirius.analysis/Operational Analysis" representationName="Operational Entity Blank">
+      <layers name="Scenario Stories">
+        <edgeMappings name="When Edge" preconditionExpression="service:canElementBeShown(diagram)" sourceMapping="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subContainerMappings[name='BasicGroup']" targetMapping="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subContainerMappings[name='BasicGroup']" targetFinderExpression="feature:targetComponent" sourceFinderExpression="feature:sourceComponent" domainClass="WhenEdge" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="10" showIcon="false" labelExpression="When">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Then Edge" preconditionExpression="service:canElementBeShown(diagram)" sourceMapping="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subContainerMappings[name='BasicGroup']" targetMapping="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subContainerMappings[name='BasicGroup']" targetFinderExpression="feature:targetComponent" sourceFinderExpression="feature:sourceComponent" domainClass="ThenEdge" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="10" showIcon="false" labelExpression="Then">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Given Edge" preconditionExpression="service:canElementBeShown(diagram)" sourceMapping="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subContainerMappings[name='BasicGroup']" targetMapping="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subContainerMappings[name='BasicGroup']" targetFinderExpression="feature:targetComponent" sourceFinderExpression="feature:sourceComponent" domainClass="GivenEdge" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="10" showIcon="false" labelExpression="Given">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="And Edge" preconditionExpression="service:canElementBeShown(diagram)" sourceMapping="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subContainerMappings[name='BasicGroup']" targetMapping="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subContainerMappings[name='BasicGroup']" targetFinderExpression="feature:targetComponent" sourceFinderExpression="feature:sourceComponent" domainClass="AndEdge" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="10" showIcon="false" labelExpression="And">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="ScenarioContainer" preconditionExpression="service:canElementBeShown(diagram)" domainClass="ScenarioContainer" dropDescriptions="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@toolSections.0/@ownedTools[name='Container%20Drop']">
+          <subNodeMappings name="BasicEvent" preconditionExpression="service:canElementBeShown(diagram)" semanticCandidatesExpression="service:getSemanticChildren()" domainClass="BasicEvent">
+            <style xsi:type="style:EllipseNodeDescription" labelSize="10" showIcon="false" labelExpression="service:getLabel()" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="BasicElement" preconditionExpression="service:canElementBeShown(diagram)" semanticCandidatesExpression="service:getSemanticChildren()" domainClass="BasicElement">
+            <style xsi:type="style:SquareDescription" labelSize="10" showIcon="false" labelExpression="service:getLabel()" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subNodeMappings>
+          <subContainerMappings name="BasicGroup" preconditionExpression="service:canElementBeShown(diagram)" semanticCandidatesExpression="service:getSemanticChildren()" domainClass="BasicGroup" dropDescriptions="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@toolSections.0/@ownedTools[name='Container%20Drop']" reusedNodeMappings="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent']">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" showIcon="false" labelExpression="service:getLabel()">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_yellow']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" showIcon="false" labelExpression="service:getLabel()">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="ScenarioStories" label="ScenarioStories">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create Scenario" containerMappings="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:container.getDefaultScenariosFolder(diagram, true)">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="scenariostories::ScenarioContainer" referenceName="ownedScenarios"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Event" nodeMappings="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="BasicEvent" referenceName="ownedComponents"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Element" nodeMappings="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="scenariostories::BasicElement" referenceName="ownedComponents"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create Group" containerMappings="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subContainerMappings[name='BasicGroup']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="scenariostories::BasicGroup" referenceName="ownedComponents"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="Delete Edge ">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:elementView">
+                <subModelOperations xsi:type="tool_1:DeleteView"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Create Given Edge" edgeMappings="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@edgeMappings[name='Given%20Edge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="GivenEdge" referenceName="ownedComponents">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="sourceComponent" valueExpression="var:source"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="targetComponent" valueExpression="var:target"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Create When Edge" edgeMappings="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@edgeMappings[name='When%20Edge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="WhenEdge" referenceName="ownedComponents">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="sourceComponent" valueExpression="var:source"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="targetComponent" valueExpression="var:target"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Create Then Edge" edgeMappings="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@edgeMappings[name='Then%20Edge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="ThenEdge" referenceName="ownedComponents">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="sourceComponent" valueExpression="var:source"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="targetComponent" valueExpression="var:target"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Create And Edge" edgeMappings="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@edgeMappings[name='And%20Edge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="AndEdge" referenceName="ownedComponents">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="sourceComponent" valueExpression="var:source"/>
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="targetComponent" valueExpression="var:target"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerDropDescription" name="Container Drop" mappings="//@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@edgeMappings[name='And%20Edge'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@edgeMappings[name='Given%20Edge'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicElement'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subNodeMappings[name='BasicEvent'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@containerMappings[name='ScenarioContainer']/@subContainerMappings[name='BasicGroup'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@edgeMappings[name='Then%20Edge'] //@ownedViewpoints[name='ScenarioStories_ID']/@ownedRepresentationExtensions[name='diagramExtension']/@layers[name='Scenario%20Stories']/@edgeMappings[name='When%20Edge']" dragSource="BOTH" moveEdges="true">
+            <oldContainer name="oldSemanticContainer"/>
+            <newContainer name="newSemanticContainer"/>
+            <element name="element"/>
+            <newViewContainer name="newContainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:MoveElement" newContainerExpression="var:newSemanticContainer" featureName="ownedComponents"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </layers>
+    </ownedRepresentationExtensions>
+    <ownedJavaExtensions qualifiedClassName="org.polarsys.capella.vp.scenariostories.design.service.ScenariostoriesOpenJavaService"/>
+  </ownedViewpoints>
+</description:Group>

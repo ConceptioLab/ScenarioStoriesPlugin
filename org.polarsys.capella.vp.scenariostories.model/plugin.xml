@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+
+
+<plugin>
+
+   
+<!--@generated-->
+  <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated scenariostories -->
+      <package class="org.polarsys.capella.vp.scenariostories.scenariostories.ScenariostoriesPackage" genModel="models/scenariostories.genmodel" uri="http://www.polarsys.org/capella/scenariostories"/>
+   </extension>
+
+   
+<!--@generated-->
+  <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated scenariostories -->
+      <parser class="org.polarsys.capella.vp.scenariostories.scenariostories.util.ScenariostoriesResourceFactoryImpl" type="scenariostories"/>
+   </extension>
+
+
+<!--@generated-->
+  <extension point="org.polarsys.capella.common.model.helpers.helper">
+    <helperImpl class="org.polarsys.capella.vp.scenariostories.model.helpers.ScenariostoriesPackageHelper" nsURI="http://www.polarsys.org/capella/scenariostories"/>
+  </extension>
+</plugin>
